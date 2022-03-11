@@ -1,9 +1,9 @@
-
+import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
     <header>
-      <h1>Starter Kit for React</h1>
+      <LoginPage />
     </header>
   );
 }
