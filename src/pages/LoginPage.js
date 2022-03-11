@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../img/logo.jpg'
 import LoginImg from '../img/login-page-big.jpg'
+import { Link } from "react-router-dom"
 
 
 function LoginPage(props) {
@@ -23,7 +24,7 @@ function LoginPage(props) {
                                         <input type="password" name="password" required="required" placeholder="Password"></input>
                                     </div>
                                     <div className="button-panel">
-                                        <input type="submit" class="button" title="Sign In" value="Sign In"></input>
+                                        <Link to="/DashBoardPage"><input type="submit" class="button" title="Sign In" value="Sign In"></input></Link>
                                     </div>
                                 </form>
                                 <div className="form-footer">

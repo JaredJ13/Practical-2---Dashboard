@@ -1,3 +1,5 @@
+
+
 html { 
     box-sizing: border-box; } 
 
@@ -7,6 +9,11 @@ html {
 body, header, p, h1, h2{
     margin: 0;
     padding: 0;
+}
+
+header{
+  width: 97vw;
+  margin: 0 auto;
 }
 
 .inner-container{
@@ -22,8 +29,8 @@ body, header, p, h1, h2{
 }
 
 .login-wrapper{
-    margin: 0 auto;
-    box-shadow: 0.1rem 0rem 0.8rem #a8acb1;
+    margin: 8rem auto 0 auto;
+    box-shadow: 0.1rem 0rem 0.8rem #b1ada8;
     width: 75vw;
 }
 
@@ -34,7 +41,7 @@ body, header, p, h1, h2{
 
 /* body */
   body {
-    background: #e9e9e9;
+    background: #ffffff;
     color: #5e5e5e;
     font: 400 87.5%/1.5em 'Open Sans', sans-serif;
   }
@@ -141,7 +148,7 @@ body, header, p, h1, h2{
     align-content: center;
     border-bottom: 1px solid black;
     padding: 0.75rem;
-    width: 95vw;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -171,7 +178,6 @@ body, header, p, h1, h2{
   .sidebar-wrapper{
     height: 100%;
     border-right: 1px solid black;
-    margin-left: 1rem;
   }
 
   .sidebar-wrapper > ul{
@@ -212,6 +218,11 @@ body, header, p, h1, h2{
     margin-bottom: 0.2rem;
   }
 
+  .sign-out-sidebar a{
+    color: #5e5e5e;
+    text-decoration: none;
+  }
+
 
   /* Panel */
 
@@ -226,6 +237,27 @@ body, header, p, h1, h2{
 
   .panel-wrapper h2{
     text-align: center;
+  }
+
+  /*  */
+  /* 404 PAGE NOT FOUND */
+  /*  */
+  .page-nf-background{
+    background-color: #f7f3f3;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .page-nf-background img{
+    width: 100%;
+  }
+
+  .page-nf-background h1{
+    position: relative;
+    top: 15rem;
+    z-index: 1000;
+    text-align: center;
+    color: #6a787e;
   }
 
   /*  */

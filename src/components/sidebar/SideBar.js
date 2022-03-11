@@ -1,5 +1,6 @@
 import React from "react";
 import { IoCaretDown, IoFileTrayFullOutline, IoLogoBuffer, IoCartOutline, IoStarOutline, IoLogOutOutline, IoCashOutline, IoPeopleOutline, IoPeopleCircleOutline, IoAnalyticsOutline, IoCellularOutline, IoAppsOutline } from 'react-icons/io5'
+import { Link } from "react-router-dom";
 
 function SideBar(props) {
     return (
@@ -76,10 +77,12 @@ function SideBar(props) {
                                     <IoAnalyticsOutline size="1.25rem" /> Sales
                                 </div>
                             </li>
-                            <li>
-                                <div className="flex-sidebar">
-                                    <IoLogOutOutline size="1.25rem" /> Sign Out
-                                </div>
+                            <li className="sign-out-sidebar">
+                                <Link to="/loginpage">
+                                    <div className="flex-sidebar">
+                                        <IoLogOutOutline size="1.25rem" /> Sign Out
+                                    </div>
+                                </Link>
                             </li>
                         </ul>
                     </div>
