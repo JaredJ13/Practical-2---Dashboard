@@ -3,7 +3,7 @@ import Logo from '../img/logo.jpg'
 import LoginImg from '../img/login-page-big.jpg'
 
 
-function DashBoardPage(props) {
+function LoginPage(props) {
     return (
         <>
             <section>
@@ -42,4 +42,4 @@ function DashBoardPage(props) {
     )
 }
 
-export default DashBoardPage
+export default LoginPage

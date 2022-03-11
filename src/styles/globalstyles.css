@@ -9,10 +9,6 @@ body, header, p, h1, h2{
     padding: 0;
 }
 
-header{
-    padding: 8rem 0;
-}
-
 .inner-container{
     width: 100%;
 }
@@ -54,7 +50,7 @@ header{
     object-fit: cover;
   }
   
-  h1 {
+  .form-wrapper h1 {
     text-align: center;
     margin: 0.50rem 0;
   }
@@ -135,6 +131,104 @@ header{
   }
 
   /*  */
+  /* Dashboard Page */
+  /*  */
+
+  /* Appbar */
+
+  .appbar-wrapper{
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid black;
+    padding: 0.75rem;
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .appbar-brand h1{
+    text-align: center;
+    margin-top: 0.2rem;
+  }
+
+  .appbar-icons ul{
+    list-style: none;
+  }
+
+  .appbar-icons li{
+    padding: 0 0.5rem;
+  }
+
+  /* Side Bar */
+
+  .sidebar-section{
+    width: 13rem;
+  }
+
+  .container{
+    width: 13rem;
+    height: 100vw;
+  }
+  .sidebar-wrapper{
+    height: 100%;
+    border-right: 1px solid black;
+    margin-left: 1rem;
+  }
+
+  .sidebar-wrapper > ul{
+    border-bottom: 1px solid black;
+    list-style: none;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  .sidebar-wrapper ul:first-of-type{
+    margin-top: 0;
+  }
+
+  .sidebar-wrapper ul:last-of-type{
+    border-bottom: none;
+  }
+
+  .sidebar-wrapper ul li ul{
+    display: none;
+  }
+
+  .sidebar-wrapper ul li:hover ul{
+    display: block;
+  }
+
+  .sidebar-wrapper ul li{
+    margin: 1rem 0;
+  }
+
+  .flex-sidebar{
+    display: flex;
+    align-items: center;
+  }
+
+  .flex-sidebar svg{
+    margin-right: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+
+
+  /* Panel */
+
+  .panel-section{
+    width: 100%;
+  }
+
+  .panel-wrapper{
+    margin: 1rem;
+    width: 100%;
+  }
+
+  .panel-wrapper h2{
+    text-align: center;
+  }
+
+  /*  */
   /* Media Queries */
   /*  */
 
@@ -155,4 +249,10 @@ header{
         margin: 0 auto;
         width: 75%;
     }
+  }
+
+  @media (min-width: 1200px){
+      .login-wrapper{
+          width: 65vw;
+      }
   }
