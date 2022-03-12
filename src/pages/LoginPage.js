@@ -34,6 +34,10 @@ function LoginPage(props) {
                             </div>
                         </div>
                         <div className='half-2 hidden'>
+                            <div className='login-content'>
+                                <h2>Happy Dog</h2>
+                                <p>Apparel, Toys, Beds, & More!</p>
+                            </div>
                             <img src={LoginImg} alt='dog with a sweater on by a toy' />
                         </div>
                     </div>

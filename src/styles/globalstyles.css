@@ -56,6 +56,30 @@ header{
     width: 100%;
     object-fit: cover;
   }
+
+  .half-2{
+    position: relative;
+  }
+
+  .login-content{
+    width: 100%;
+    color: #fafafa;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .half-2 p{
+    top: 12rem;
+    left: 36rem;
+  }
+
+  .half-2 h2{
+    top: 10rem;
+    left: 38rem;
+    margin-bottom: 0.5rem;
+  }
   
   .form-wrapper h1 {
     text-align: center;
